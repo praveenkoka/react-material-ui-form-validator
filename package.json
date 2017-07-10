@@ -1,7 +1,7 @@
 {
-  "name": "react-material-ui-form-validator",
-  "version": "0.5.0",
-  "description": "Simple validator for forms designed with material-ui components.",
+  "name": "react-material-ui-mongoose-form-validation",
+  "version": "0.1.0",
+  "description": "Simple validator for forms designed with material-ui components, with optional mongoose schema",
   "main": "./lib/index.js",
   "scripts": {
     "build": "babel ./src -d ./lib --presets=es2015,react,stage-2",
@@ -10,9 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NewOldMax/react-material-ui-form-validator.git"
+    "url": "git+https://github.com/praveenkoka/react-material-ui-form-validator.git"
   },
   "keywords": [
+    "react",
+    "mongoose",
     "material-ui",
     "form",
     "validation"
@@ -20,14 +22,14 @@
   "author": "NewOldMax",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NewOldMax/react-material-ui-form-validator/issues"
+    "url": "https://github.com/praveenkoka/react-material-ui-form-validator/issues"
   },
-  "homepage": "https://github.com/NewOldMax/react-material-ui-form-validator#readme",
+  "homepage": "https://github.com/praveenkoka/react-material-ui-form-validator#readme",
   "peerDependencies": {
-    "material-ui": ">=0.16.0 <1",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
-    "prop-types": "^15.0.0"
+    "material-ui": "^1.0.0-alpha.21",
+    "react": "^15.3.0 || ^16.0.0-alpha.13",
+    "react-dom": "^15.3.0 || ^16.0.0-alpha.13",
+    "prop-types": "^15.3.0"
   },
   "devDependencies": {
     "babelify": "7.3.0",
